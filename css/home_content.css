@@ -1,0 +1,148 @@
+
+/* #region主页内容区start */
+.content .container {
+    height: 620px;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.content .container>div {
+    width: 585px;
+    height: 300px;
+}
+
+/* 视频 */
+.content .video {
+    font-size: 30px;
+    background-color: #ddd;
+}
+
+/* 奖项 */
+.content .awards {
+    box-sizing: border-box;
+}
+.content .awards-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bold;
+    color: #015E91;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #015E91;
+}
+.content .awards-list {
+    margin-top: 20px;
+}
+.content .awards-list li {
+    margin: 10px 0;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.content .awards-list li a {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-right: 20px;
+}
+.post-date {
+    color: gray;
+    white-space: nowrap;
+}
+
+/* 轮播图 */
+.pictures .inner{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.pictures .inner img{
+    width: 585px;
+    height: 300px;
+    vertical-align: top;
+}
+.pictures .inner ul {
+    width: 1000%;
+    position: absolute;
+    list-style: none;
+    left:0;
+    top: 0;
+}
+.pictures .inner li{
+    float: left;
+}
+
+.pictures .inner .bar {
+    position: absolute;
+    height: 20px;
+    right: 20px;
+    bottom: 20px;
+    text-align: center;
+    padding: 5px;
+}
+.pictures .inner .bar li{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    background-color: #fff;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.pictures .inner .bar .current{
+    background-color: red;
+}
+.pictures .inner #arr{
+    display: none;
+}
+.pictures .inner #arr span{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    margin-top: -20px;
+    background: #fff;
+    cursor: pointer;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-family: '黑体';
+    font-size: 30px;
+    color: #000;
+    opacity: 0.5;
+    border: 1px solid #fff;
+}
+.pictures .inner #arr #right {
+    right: 5px;
+    left: auto;
+}
+
+
+/* 友情链接 */
+.content .links {
+    box-sizing: border-box;
+}
+.content .links-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bold;
+    color: #015E91;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #015E91;
+}
+.content .links-list {
+    margin-top: 20px;
+}
+.content .links-list li {
+    margin: 10px 0;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+/* #endregion主页内容区end */

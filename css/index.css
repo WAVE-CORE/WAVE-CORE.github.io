@@ -1,0 +1,95 @@
+/* 基础设置 */
+.container {
+    width: 1190px;
+    margin: 0 auto;
+}
+
+/* #region顶部start */
+.header {
+    height: 150px;
+    background-color: #ddd;
+}
+.header .container {
+    height: 100%;
+    background-image: url(../img/header_bg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 -50px;
+}
+/* #endregion顶部end */
+
+/* #region导航栏start */
+.main-nav {
+    height: 50px;
+    background-color: #01A6DE;
+}
+.main-nav .nav-list {
+    width: 1190px;
+    height: 50px;
+    line-height: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.main-nav .nav-list>li {
+    padding: 0 20px;
+    position: relative;
+    cursor: pointer;
+}
+.main-nav .nav-list>li:hover {
+    background-color: white;
+}
+.main-nav .nav-list>li>a {
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+}
+.main-nav .nav-list>li:hover>a {
+    color: #01A6DE;
+}
+
+.main-nav .nav-list>li .second-menu {
+    width: 100%;
+    background-color: skyblue;
+    position: absolute;
+    left: 0;
+    top: 50px;
+    display: none;
+}
+.main-nav .nav-list>li:hover .second-menu {
+    display: block;
+    z-index: 10;
+}
+.main-nav .nav-list>li .second-menu li {
+    text-align: center;
+}
+.main-nav .nav-list>li .second-menu li:hover {
+    display: block;
+}
+.main-nav .nav-list>li .second-menu li:hover a {
+    color: #01A6DE;
+}
+.main-nav .nav-list>li .second-menu li a {
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
+/* #endregion导航栏end */
+
+/* #region页脚start */
+.footer {
+    height: 120px;
+    background-color: #ddd;
+    margin-top: 10px;
+}
+.footer .container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+.footer .address {
+    margin-bottom: 10px;
+}
+/* #endregion页脚end */
