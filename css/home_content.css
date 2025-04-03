@@ -20,10 +20,10 @@
 }
 
 /* 奖项 */
-.content .awards {
+.content .news {
     box-sizing: border-box;
 }
-.content .awards-header {
+.content .news-header {
     display: flex;
     justify-content: space-between;
     font-size: 20px;
@@ -32,16 +32,16 @@
     padding-bottom: 10px;
     border-bottom: 2px solid #015E91;
 }
-.content .awards-list {
+.content .news-list {
     margin-top: 20px;
 }
-.content .awards-list li {
-    margin: 10px 0;
-    font-size: 15px;
+.content .news-list li {
+    margin: 15px 0;
+    font-size: 16px;
     display: flex;
     justify-content: space-between;
 }
-.content .awards-list li a {
+.content .news-list li a {
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -140,8 +140,8 @@
     margin-top: 20px;
 }
 .content .links-list li {
-    margin: 10px 0;
-    font-size: 15px;
+    margin: 15px 0;
+    font-size: 16px;
     display: flex;
     justify-content: space-between;
 }

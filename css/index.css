@@ -11,10 +11,9 @@
 }
 .header .container {
     height: 100%;
-    background-image: url(../img/header_bg.webp);
+    background-image: url(../img/header_bg.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 0 -50px;
 }
 /* #endregion顶部end */
 

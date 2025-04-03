@@ -100,12 +100,18 @@
 .content .main-con .members p,a {
     font-size: 18px;
     padding: 10px 0;
-
 }
+
 .content .main-con .members .title {
     font-size: 18px;
     font-weight: bold;
     padding: 10px 0;
+}
+.content .main-con .members li {
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 0 20px 20px 0;
 }
 
 .content .main-con .directions p {
@@ -116,4 +122,39 @@
     display: block;
     margin: 0 auto;
 }
+
+.content .main-con .overview {
+    font-size: 18px;
+    line-height: 2;
+}
+
+.content .main-con .culture img {
+    width: 600px;
+    display: block;
+    margin: 0 auto;
+}
+.content .main-con .culture h3 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #015E91;
+    text-align: center;
+}
+.content .main-con .communication h3 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #015E91;
+    padding-bottom: 20px;
+}
+
+.content .main-con .communication p,a {
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+.content .main-con .communication .title {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
 /* #endregion内容区end */
