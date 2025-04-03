@@ -107,13 +107,17 @@
     font-weight: bold;
     padding: 10px 0;
 }
-.content .main-con .members li {
+.content .main-con .members .masters li {
     font-size: 18px;
     font-weight: bold;
     display: inline-block;
     padding: 0 20px 20px 0;
 }
-
+.content .main-con .members .doctors li {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 20px 20px 0;
+}
 .content .main-con .directions p {
     font-size: 18px;
     padding: 10px 0;
